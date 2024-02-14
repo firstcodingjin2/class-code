@@ -1,0 +1,14 @@
+<!doctype html>  
+<html>  
+   <body>  
+      <p><strong>등록해 주셔서 감사합니다. 세부 정보를 확인하세요</strong></p>  
+      <table border=1>  
+         {% for key, value in result.items() %}  
+            <tr>  
+               <th> {{ key }} </th>  
+               <td> {{ value }} </td>  
+            </tr>  
+         {% endfor %}  
+      </table>  
+   </body>  
+</html>

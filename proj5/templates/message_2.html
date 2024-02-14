@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <h2>{{num}} 개 행의 테이블 출력</h2>      
+    <table border=1>
+    {% for i in range(1, num+1): %}    
+        <tr><td>{{i}}</td>  </tr>
+    {% endfor %} 
+    </table>
+</body>
+</html>
